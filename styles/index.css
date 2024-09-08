@@ -23,7 +23,9 @@
     color: white;
     border: 1px solid white;
 }
- 
+ .menu-icon{
+    display: none;
+ }
   
 .navbar{
     display: flex;
@@ -270,5 +272,24 @@ footer ul li{
     }
     .cards{
         flex-direction: column;
+    }
+    .head{
+        flex-direction: column;
+    }
+    .btn-3{
+        transform: translateX(40px);
+    }
+    .list-items{
+        display: none;
+    }
+    .menu-icon{
+        display: block;
+        margin-top: 50px;
+    }
+    .menu-icon div{
+        width: 20px;
+        height: 3px;
+        background-color: white;
+        margin-bottom: 4px;
     }
 }
