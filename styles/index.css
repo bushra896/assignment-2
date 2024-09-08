@@ -130,7 +130,7 @@
     display: flex;
     background-color: rgba(34, 34, 34, 1);
     max-width: 1030px;
-    height: 350px;
+    height: 300px;
     gap: 100px;
     margin-top: 60px;
     justify-content: center;
@@ -252,4 +252,23 @@ footer ul li{
 }
 .fit{
     margin-left: 30px;
+}
+@media screen and (max-width: 576px) {
+    .footer{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .members{
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 55px;
+    }
+    .bmi{
+        flex-direction: column;
+    }
+    .run{
+        flex-direction: column;
+        height: 700px;
+    }
+    .cards{
+        flex-direction: column;
+    }
 }
